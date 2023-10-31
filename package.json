@@ -1,0 +1,24 @@
+{
+  "name": "test-component",
+  "version": "1.0.0",
+  "description": "Test Web Component",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/capnregex/test-component.git"
+  },
+  "keywords": [
+    "Test",
+    "Web",
+    "Component"
+  ],
+  "author": "Robert W. Ferney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/capnregex/test-component/issues"
+  },
+  "homepage": "https://github.com/capnregex/test-component#readme"
+}
