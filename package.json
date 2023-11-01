@@ -4,6 +4,9 @@
   "description": "Test Web Component",
   "main": "index.js",
   "scripts": {
+    "build": "node build.mjs",
+    "watch": "node watch.mjs",
+    "serve": "node serve.mjs",
     "test": "jest"
   },
   "repository": {
@@ -20,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/capnregex/test-component/issues"
   },
-  "homepage": "https://github.com/capnregex/test-component#readme"
+  "homepage": "https://github.com/capnregex/test-component#readme",
+  "devDependencies": {
+    "esbuild": "0.19.5",
+    "esbuild-sass-plugin": "^2.16.0"
+  },
+  "dependencies": {
+  }
 }
